@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": 2,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "yaml.schemas": {
+
+        "kubernetes": "*.yaml"
+    }
+}
