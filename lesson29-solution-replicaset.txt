@@ -1,0 +1,17 @@
+kubectl get replicaset
+
+kubectl describe replicaset
+
+kubectl describe pods
+
+kubectl -f /root/replicaset-definition-1.yaml
+
+kubectl delete replicaset 
+
+ubectl delete replicaset replicaset-2 replicaset-1
+
+kubectl edit replicaset new-replica-set --image=busybox
+
+kubectl edit replicasets.apps new-replica-set
+
+kubectl scale replicaset --replicas=2 new-replica-set
