@@ -1,10 +1,6 @@
 kubectl create -f rc-definition.yml
 kubectl get ReplicationController
 
-minikube --memory 8192 --cpus 4 start
-
-kubectl get node minikube -o jsonpath='{.status.capacity}'
-
 kubectl delete rc myapp-rc 
 
 kubectl delete rc myapp-rc --cascade=false

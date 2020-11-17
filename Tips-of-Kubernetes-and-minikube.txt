@@ -61,6 +61,10 @@ minikube start --driver=docker
 
 minikube start --driver=hyperv 
 
+minikube --memory 4096 --cpus 8 start --driver=hyperv 
+
+kubectl get node minikube -o jsonpath='{.status.capacity}'
+
 C:\UserApps3\kubernetesWorkspaces\KUBERNETES-FOR-BEGINNERS>kubectl get services
 NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
 kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   39s
@@ -87,6 +91,8 @@ kubectl get nodes
 minikube stop
 
 minikube delete
+
+
 
 minikube kubectl -- get pods -A
 
@@ -148,6 +154,10 @@ kubectl describe pod nginx
 kubectl run nginx --image=nginx
 
  kubectl describe pod webapp
+ 
+ kubectl delete --all pods --namespace=default
+ 
+ kubectl delete --all deployments --namespace=default
 
 
 

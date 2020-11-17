@@ -1,0 +1,3 @@
+Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz [Family 6 Model 94 Stepping 3]
+CPU model																Number of computers	Avg. cores/computer	GFLOPS/core	 GFLOPs/computer
+Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz [Family 6 Model 94 Stepping 3]	350					8.11     			3.90	     31.66

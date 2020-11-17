@@ -1,0 +1,10 @@
+#NodePort
+C:\UserApps3\kubernetesWorkspaces\KUBERNETES-FOR-BEGINNERS\deployment>kubectl create -f  deployment.yaml
+
+C:\UserApps3\kubernetesWorkspaces\KUBERNETES-FOR-BEGINNERS\service>kubectl create -f service-definition.yaml
+
+minikube service myapp-service --url
+
+it will print out the URL then hit the url in browser
+
+#ClusterIP
